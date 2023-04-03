@@ -1,0 +1,15 @@
+# Hvor mye testdekning skal du ha?
+
+> 原文：<https://medium.com/compendium/hvor-mye-testdekning-skal-du-ha-c642c0433a59?source=collection_archive---------8----------------------->
+
+Når jeg er ute i oppdrag hos kunder kommer spørsmålet før eller siden: hvor mye testdekning skal man egentlig ha? Det korte, prinsipielle svaret er: 100%. Det lange, korrekte svaret er: du skal ha testdekning på alt du bryr deg om. Men siden du ikke skal ha kildekode i systemet ditt som implementerer funksjonalitet du ikke bryr deg om, er dette svaret fundamentalt det samme som det prinsipielle svaret. Det mer pragmatiske svaret er at det kommer an på, og i praksis blir det ofte 60–70%.
+
+Har prosjektet ditt 0% testdekning, trenger man ikke å diskutere det en gang: du har for lav testdekning. Det samme gjelder når du har 0,1%, 1% eller 10% testdekning. Men så snart et prosjekt har kommet seg over 30%-grensen, som virker som en magisk grense, kommer diskusjonen om hva som bør være målet for testdekning.
+
+Å ha 100% testdekning er etter min erfaring litt suspekt. Ofte er det et resultat av bruk av et automatisk testgenereringsverktøy, som produserer meningsløse enhetstester som kjører gjennom kildekoden og sjekker at den gjør det den gjør. Og det er ikke er det samme som å teste at koden gjør det den *bør* gjøre. I andre tilfeller har man brukt et [mock-rammeverk](https://grensesnittet.computas.com/slutt-a-bruke-mock-rammeverk/) for å komme seg til alle mulige kriker og kroker i kildekoden, uten at det gir så mye mening heller. Men man har fått høy testdekning da!
+
+Det er i utgangspunktet feil at man ikke får testet hele kodebasen, og på en måte også skremmende at man ikke får tak i opptil 40% av kildekoden. Likevel er det i praksis ofte slik at høyere testdekningskrav fører til mange dårlige tester som ikke gjør noe annet enn å drive opp et måltall.
+
+Det er nemlig slik at en god del av disse 40% er kode som befinner seg ytterst i grensesnittene, som f.eks. brukergrensesnittet eller integrasjonspunktene med andre systemer. Hvis man følger gode kodestandarder vil det ikke ligge så mye logikk i disse delene av kodebasen. Helst skal det være enkel kode som ikke gjør noe mer enn å koble systemet sammen med resten av verden, slik at det egentlig ikke er så viktig eller interessant å ha enhetstester på den.
+
+Skal man virkelig ha høye krav til testdekning, er det uansett ikke nok å måle hvor mange linjer eller grener som er dekket av enhetstestene. Da må man først og fremst se på kvaliteten av enhetstestene, og hvis man virkelig skal måle noe, heller bruke mutasjonstesting som grunnlag. Det eneste en klassisk måling av testdekning kan avsløre, er om man har for dårlig testdekning. Det er greit nok som første sjekk, men vær alltid obs på at høye testdekningstall basert på antall kodelinjer eller grener er noe man lett kan ha jukset seg frem til.

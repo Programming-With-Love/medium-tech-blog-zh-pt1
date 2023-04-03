@@ -1,0 +1,17 @@
+# Kerberos:协议
+
+> 原文：<https://medium.com/double-pointer/kerberos-protocol-7ee00c3e9d37?source=collection_archive---------6----------------------->
+
+本课解释了 Kerberos 协议中各种实体的交互。
+
+> 别忘了买你那本畅销书 [**卡莉 Linux 黑客**](https://amzn.to/3K4hQzp)
+
+## [上一张](https://bit.ly/3Kst7Xu) | [首页](https://bit.ly/3CoSIO2) | [下一张](https://bit.ly/3KuxcKv)
+
+*在这里* *获得完整的* [*Kerberos 课程。*](https://bit.ly/3vL8qSy)
+
+> **别忘了拿你那本** [**网络安全必备**](https://amzn.to/3BFWeEI) **。请考虑支持我们的** [**中型**](https://bit.ly/3OvimpR) **或结帐我们的合作伙伴之一**[**uda city**](https://bit.ly/3JIpvl4)**|**[**Coursera**](https://imp.i384100.net/zaYBB0)**|**[**plural sight**](https://pluralsight.pxf.io/Ao7GGK)
+
+[![](img/376855fe158c3affbd9870f21626ac01.png)](https://bit.ly/3agTSNt)
+
+Work smart, [learn coding patterns to solve interview questions](https://bit.ly/3agTSNt) rather work hard and waste endless hours on LeetCode

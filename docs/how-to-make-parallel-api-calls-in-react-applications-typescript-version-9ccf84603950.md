@@ -1,0 +1,9 @@
+# 如何在 React 应用程序中进行并行 API 调用— Typescript 版本
+
+> 原文：<https://medium.com/bb-tutorials-and-thoughts/how-to-make-parallel-api-calls-in-react-applications-typescript-version-9ccf84603950?source=collection_archive---------0----------------------->
+
+## 包含示例项目的逐步指南
+
+![](img/cbabbb4445a408941cd40d3cee849973.png)
+
+在 web 应用程序中，您在页面上显示的所有数据都应该驻留在某个地方，例如，缓存、数据库、存储帐户等。您需要从不同的来源获取数据，进行一些处理，然后在 UI 上呈现数据。所有的数据都可以…
