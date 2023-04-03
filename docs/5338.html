@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Oracle JET hybrid apps and iOS 11</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">Oracle JET混合应用和iOS 11</h1>
+<blockquote>原文：<a href="https://medium.com/oracledevs/oracle-jet-hybrid-apps-and-ios-11-f5e2351727bf?source=collection_archive---------2-----------------------#2017-11-06">https://medium.com/oracledevs/oracle-jet-hybrid-apps-and-ios-11-f5e2351727bf?source=collection_archive---------2-----------------------#2017-11-06</a></blockquote><div><div class="ds gv gw gx gy gz"/><div class="ha hb hc hd he"><div class=""/><p id="d3c0" class="pw-post-body-paragraph ie if hh ig b ih ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb ha bi translated">Oracle JavaScript Extension Toolkit(JET)混合入门模板允许在每个受支持的移动平台(Android、iOS和Windows)上使用状态栏，而无需您添加cordova-plugin-statusbar插件。</p><p id="c283" class="pw-post-body-paragraph ie if hh ig b ih ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb ha bi translated">随着iOS 11和cordova-ios中最近的变化，您可能会发现您的Oracle JET hybrid mobile应用程序在iOS 11上的标题中显示了额外的填充，或者如果您使用彩色背景，您可能会在状态栏上看到旧iOS版本中不存在的白色背景。</p><p id="03e7" class="pw-post-body-paragraph ie if hh ig b ih ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb ha bi translated">解决这个问题似乎很简单。</p><p id="60a2" class="pw-post-body-paragraph ie if hh ig b ih ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb ha bi translated">更新index.html中的“viewport”元标签，使其包含“viewport-fit=cover ”,如下所示:</p><pre class="jc jd je jf fd jg jh ji jj aw jk bi"><span id="cf2d" class="jl jm hh jh b fi jn jo l jp jq">&lt;meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/&gt;</span></pre><p id="a888" class="pw-post-body-paragraph ie if hh ig b ih ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb ha bi translated">我已经在少量设备上进行了测试，包括iOS 10和iOS 11、Android，甚至在各种浏览器上提供应用程序。这个小小的改动似乎一切都很好，但是如果您在测试中发现任何问题，请告诉我。</p></div></div>    
+</body>
+</html>
