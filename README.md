@@ -45,6 +45,29 @@
 * [ApacheCN 学习资源](http://docs.apachecn.org/)
 * [ApacheCN 翻译校对兼职群 713436582](https://jq.qq.com/?_wv=1027&k=VSNtgpjb)
 
+## 目录
+
++   `medium.com/airbnb-engineering`
++   `medium.com/androiddevelopers`
++   `medium.com/bb-tutorials-and-thoughts`
++   `medium.com/capital-one-tech`
++   `medium.com/double-pointer·
++   `medium.com/duomly-blockchain-online-courses`
++   `medium.easyread.co`
++   `medium.com/edureka`
++   `medium.com/globant`
++   `medium.com/google-developer-experts`
++   `medium.com/compendium`
++   `medium.com/javascript-scene`
++   `blog.kotlin-academy.com`
++   `medium.com/mendix`
++   `medium.com/oracledevs`
++   `medium.com/pinterest-engineering`
++   `medium.com/quick-code`
++   `medium.com/square-corner-blog`
++   `medium.com/version-1`
++   `medium.com/walmartglobaltech`
+
 ## 贡献指南
 
 为了不断改进翻译质量，我们特此启动了【翻译、校对、笔记整理活动】，开设了多个校对项目。贡献者校对一章之后可以领取千字2\~4元的奖励。进行中的校对活动请见[活动列表](https://home.apachecn.org/#/docs/activity/docs-activity)。更多详情请联系飞龙（Q562826179，V:wizardforcel）。
